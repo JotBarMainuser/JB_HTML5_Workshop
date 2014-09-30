@@ -49,7 +49,74 @@ li:nth-child(1n+2) {
     border: 1px solid #dddddd;
     width: 150px;
     height: 60px;
-    background: url('http://www.jotbar.fi/wp-content/themes/jotbar/images/logo.png') no-repeat;   
+    background: url('http://www.jotbar.fi/wp-content/themes/jotbar/images/logo.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.linkkilista li {
+    background-color: #eeeeee;
+    width: 100px;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 100%;
+    border: 1px solid black;
+    border-radius: 8px 0px 0px 8px;
+}
 
+.linkkilista li:hover {
+    background-color: #ffffff;
+    border-right: 0px;
+}
+
+.linkkilista .active {
+    background-color: #ffffff;
+    border-right: 0px;
+}
+
+.linkkilista a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.linkkilista li:nth-child(even) {
+    border-top: none;
+    border-bottom: none;
+}
+
+.linkkilista li:last-child {
+    border-bottom: 1px solid black;
+}
+
+p {
+    clear: both;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.box {
+    display: block;
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* kesken... */
+
+.plus div {
+    margin: 0 auto;
+    display: none;
+}
+
+.plus div:hover {
+    display: normal;
+}
