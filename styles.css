@@ -1,0 +1,55 @@
+* {
+    margin: 5;
+    padding: 5;
+}
+
+.main {color: #ff6666;}
+.body {color: #666666;}
+
+h1 {font-size: 22px;}
+
+.laatikko {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.lapsi {
+    border: inherit;
+    padding: 2px;
+    font-weight: normal;
+}
+
+span {
+    font-weight: bold !important;   
+}
+
+/*
+li+li {
+    font-size: 50%;
+}
+*/
+
+li:nth-child(1n+2) {
+    font-size: 50%;
+}
+
+.fixedwidth {
+    margin: 0 auto 0 auto;
+    display: block;
+    border: 1px solid red;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.logo {
+    display: block;
+    border: 1px solid #dddddd;
+    width: 150px;
+    height: 60px;
+    background: url('http://www.jotbar.fi/wp-content/themes/jotbar/images/logo.png') no-repeat;   
+}
+
+
